@@ -1,0 +1,25 @@
+大概归纳为9种:
+1)基本选择器 
+#id element .class *
+2)层级选择器
+ancestor descendant
+parent>child
+prev+next
+prev~siblings
+3)基本过滤选择器
+:first :last :not :even :odd :eq
+:gt :lt :header :animated 
+4)内容过滤器选择器
+:contains :epmty :has :parent
+5)可见性过滤器选择器
+:hidden :visible
+6)属性过滤器选择器
+[attribute] [attribute=value] [attribute!=value]
+[attribute^=value] [attribute$=value] [attribute*=value]
+7)子元素过滤器选择器
+:nth-child :first-child :last-child :only-child
+8)表单选择器
+:input :text :password :radio :checkbox 
+:submit :image :reset :button :file :hidden
+9)表单过滤器选择器
+:enabled :disabled :checked :selected

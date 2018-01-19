@@ -1,0 +1,5 @@
+  <!-- 表单 enctype="multipart/form-data"用于提交附件必须加的form属性-->
+        <form action="http://www.mockhttp.cn/mock/wodeurl12" method="POST" enctype="multipart/form-data">
+            <input type="file">
+            <input type="submit" value="提交">
+        </form>
